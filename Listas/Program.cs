@@ -11,7 +11,8 @@ class Program
         Console.WriteLine("Digite a idade");
         string idade = Console.ReadLine()!;
         
-        lista.Adicionar(new string[]{nome, idade});
+        lista.Adicionar(nome);
+        lista.Adicionar(idade);
         
         lista.Listar("Lucas");
     }  
